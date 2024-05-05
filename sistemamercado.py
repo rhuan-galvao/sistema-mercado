@@ -42,6 +42,8 @@ while True:
                 print('Produto removido!\n')
             else:
                 print('Produto não encontrado!')
+        elif inpt == 99:
+            os.system('cls' if os.name == 'nt' else 'clear') #clear the terminal
     except ValueError:
         print('Digite um número correto!\n')
 
